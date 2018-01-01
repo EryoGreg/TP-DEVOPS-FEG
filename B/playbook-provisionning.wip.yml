@@ -1,0 +1,30 @@
+- hosts: mongo-slave
+  remote_user: ubuntu
+  sudo: yes
+ 
+ roles:
+  -?
+  vars:
+   mongodb_net_bindip: 0.0.0.0
+   mongodb_users:
+      - {
+        name: user,
+        password: password,
+        roles: readWrite,
+        database: test
+        }
+- hosts: mongo-master
+  remote_user: ubuntu
+  sudo: yes
+  roles:
+   -?
+   
+  vars:
+    mongodb_users:
+     - {
+       name: user,
+       password: password,
+       roles: Admin,
+       database: test
+       }
+

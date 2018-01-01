@@ -1,0 +1,10 @@
+Fournir des pistes d'améliorations du code existant pour augmenter sa qualité:
+-Le code existant est bien agencé, cependant, il manque de commentaires pour les nouveaux venus et ceux qui n'étaient plus sur le projet depuis un temps
+Pas besoin de détailler chaque ligne, juste ajouter des informations pertinentes serait bienvenu.
+
+Citez des exemples d'organisation du Git pour travailler à plusieurs:
+Travailler sur plusieurs branches selon les groupes pourrait faciliter le rendu. Ajouter un wiki au git permettrais de faciliter l'accès au projet à tous.
+Enfin, chaque branche devrais être testé par les autres membres.
+
+Que devrait faire concrètement la pipeline de CI ?:
+C'est à eux de vérifier et que le rendu est fonctionnel en testant le projet par des builds. Les scripts d'automatisation leurs seraient utiles.

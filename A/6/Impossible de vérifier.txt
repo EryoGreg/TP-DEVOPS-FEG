@@ -1,0 +1,1 @@
+Impossible de vérifier, problèmes rencontrés lors de l'installation de Docker
